@@ -1,0 +1,72 @@
+.nav {
+  padding-top: 30;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+.clickable {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.nav-container {
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  padding-top: 30;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navCard {
+  width: 200px;
+  display: flex;
+
+  border: black solid 3px;
+  height: 80px;
+  border-radius: 2em;
+  background-color: royalblue;
+  margin: 20px;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navCard p {
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navCardName {
+  /* width: 200px; */
+
+  font-size: 50px;
+  /* height: 80px; */
+  border-radius: 2em;
+
+  margin: 20px;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navCardName p {
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
