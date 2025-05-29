@@ -1,8 +1,12 @@
+h1 {
+  color: darkolivegreen;
+  font-size: 50px;
+}
+
 .nav {
-  padding-top: 30;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
@@ -12,35 +16,43 @@ a {
   position: relative;
 }
 
-.clickable {
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/* .clickable {
   height: 100%;
   width: 100%;
   left: 0;
   top: 0;
   position: absolute;
   z-index: 1;
-}
+} */
 
 .nav-container {
   width: 100%;
   position: relative;
   flex-wrap: wrap;
-  padding-top: 30;
+
   text-transform: uppercase;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: black solid 2px;
 }
 
 .navCard {
-  width: 200px;
+  width: 115px;
   display: flex;
 
-  border: black solid 3px;
-  height: 80px;
+  /* border: black solid 3px; */
+  height: 20px;
   border-radius: 2em;
-  background-color: royalblue;
+  /* background-color: rgb(147, 172, 247); */
   margin: 20px;
   vertical-align: middle;
   justify-content: center;
@@ -65,8 +77,4 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.navCardName p {
-  font-weight: 600;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

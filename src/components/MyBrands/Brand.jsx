@@ -1,15 +1,14 @@
 import React from "react";
 
 export default function Brand(props) {
-  props.brands.map((brand) => {
-    console.log(brand.logo);
-    return (
+  return (
+    <div>
+      <p>
+        <h3>{props.name}</h3>
+      </p>
       <div>
-        <p>this brand is {brand.brand} </p>
-        <div>
-          <img src={brand.logo} alt="" />
-        </div>
+        <img src={props.logo} alt="" />
       </div>
-    );
-  });
+    </div>
+  );
 }

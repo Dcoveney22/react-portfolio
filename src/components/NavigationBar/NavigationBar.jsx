@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 export default function NavigationBar() {
   return (
     <div className={styles["nav-container"]}>
-      <div className={styles.navCardName}>
+      {/* <div className={styles.navCardName}>
         <p>David Coveney</p>
-      </div>
+      </div> */}
       <NavLink to="/home" className={styles.navCard}>
         <p>home</p>
       </NavLink>
@@ -16,12 +16,13 @@ export default function NavigationBar() {
       </NavLink>
 
       <div className={styles.navCard}>
-        <a href="#myProjects">My Projects</a>
+        <NavLink to="/myprojects">My Projects</NavLink>
       </div>
       <div className={styles.navCard}>
-        <a target="_blank" href="/contact.html">
-          Contact Me
-        </a>
+        <NavLink to="/myexperience">My Experience</NavLink>
+      </div>
+      <div className={styles.navCard}>
+        <NavLink to="/contactme">Contact Me</NavLink>
       </div>
     </div>
   );
