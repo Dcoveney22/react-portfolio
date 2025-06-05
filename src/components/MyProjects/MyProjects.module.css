@@ -1,0 +1,18 @@
+.readme {
+  border: black 2px solid;
+}
+.projectContainer {
+  width: auto;
+  flex: 33.33%;
+  flex-direction: column;
+
+  white-space: nowrap;
+}
+.container {
+  display: flex;
+}
+.mainContainer {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
