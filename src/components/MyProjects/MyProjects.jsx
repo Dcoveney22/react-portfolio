@@ -10,6 +10,19 @@ const projects = [
     logo: "./../images/salesDock-NEW700.png",
     readme: "./../images/salesDock-READMEimg.png",
   },
+
+  {
+    id: 3,
+    name: "fancyFood",
+    logo: "./../images/fancyfoodNEWNEW.png",
+    readme: "./../images/fancyfoodNEWNEW.png",
+  },
+  {
+    id: 4,
+    name: "priceTree",
+    logo: "./../images/priceTreeNEW.png",
+    readme: "./../images/README-PriceTree.png",
+  },
   {
     id: 2,
     name: "spiritSync",

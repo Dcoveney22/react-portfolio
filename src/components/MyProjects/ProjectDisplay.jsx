@@ -5,6 +5,7 @@ import { useState } from "react";
 
 export default function ProjectDisplay(props) {
   function addDescription() {
+    props.setDescription(null);
     if (props.description === null) {
       props.setDescription(
         <Readme id={props.id} readme={props.readme} name={props.name} />
